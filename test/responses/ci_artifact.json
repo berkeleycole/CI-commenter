@@ -1,0 +1,122 @@
+{
+    "numFailedTestSuites": 1,
+    "numFailedTests": 1,
+    "numPassedTestSuites": 5,
+    "numPassedTests": 5,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 6,
+    "numTotalTests": 6,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1533652774373,
+    "success": false,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [
+                        "ReferenceError: App is not defined\n    at Object.it (/home/circleci/project/src/App.test.js:10:59)\n    at Object.asyncFn (/home/circleci/project/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)\n    at resolve (/home/circleci/project/node_modules/jest-jasmine2/build/queueRunner.js:38:12)\n    at new Promise (<anonymous>)\n    at mapper (/home/circleci/project/node_modules/jest-jasmine2/build/queueRunner.js:31:21)\n    at Promise.resolve.then.el (/home/circleci/project/node_modules/p-map/index.js:46:16)\n    at <anonymous>"
+                    ],
+                    "status": "failed",
+                    "title": "renders without crashing"
+                }
+            ],
+            "endTime": 1533652775919,
+            "message": "  ● rendering the root component › renders without crashing\n\n    ReferenceError: App is not defined\n      \n      at Object.it (src/App.test.js:10:59)\n          at new Promise (<anonymous>)\n      at Promise.resolve.then.el (node_modules/p-map/index.js:46:16)\n          at <anonymous>\n",
+            "name": "/home/circleci/project/src/App.test.js",
+            "startTime": 1533652774891,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "renders without crashing"
+                }
+            ],
+            "endTime": 1533652776064,
+            "message": "",
+            "name": "/home/circleci/project/src/components/page-top.test.js",
+            "startTime": 1533652775977,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "renders without crashing"
+                }
+            ],
+            "endTime": 1533652776119,
+            "message": "",
+            "name": "/home/circleci/project/src/components/footer.test.js",
+            "startTime": 1533652776069,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "renders without crashing"
+                }
+            ],
+            "endTime": 1533652776181,
+            "message": "",
+            "name": "/home/circleci/project/src/components/header.test.js",
+            "startTime": 1533652776123,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "renders without crashing"
+                }
+            ],
+            "endTime": 1533652776236,
+            "message": "",
+            "name": "/home/circleci/project/src/pages/contact.test.js",
+            "startTime": 1533652776186,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "renders without crashing"
+                }
+            ],
+            "endTime": 1533652776303,
+            "message": "",
+            "name": "/home/circleci/project/src/pages/about.test.js",
+            "startTime": 1533652776240,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}
