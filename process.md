@@ -15,7 +15,7 @@ You can use Probot, a framework for building GitHub Apps, but you do not have to
 - [x] The app can choose to only work with a specific test runner (ex: Jest, Mocha, etc).
 - [x] Your application should have integration/unit tests where applicable.
 
-## Submission Instructions
+## Details
 
 A repository with well-documented code and a descriptive README, explaining your approach and the challenges you encountered (and how you solved them).
 
